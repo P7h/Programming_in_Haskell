@@ -7,13 +7,13 @@ The book I used is Graham Hutton's [Programming in Haskell](http://www.cs.nott.a
 My progress is indicated below [based on the original chapters of the book]
 
 ### Part I. Basic Concepts:
-1. Introduction 				:ballot_box_with_check:
-2. First Steps					:ballot_box_with_check:
-3. Types and classes 			:ballot_box_with_check:
-4. Defining Functions 			:ballot_box_with_check:
-5. List Comprehensions			:ballot_box_with_check:
-6. Recursive Functions			:ballot_box_with_check:
-7. Higher-Order Functions
+1. [Introduction](https://github.com/P7h/Programming_in_Haskell/tree/master/Chap%231__Introduction) 				:white_check_mark:
+2. [First Steps](https://github.com/P7h/Programming_in_Haskell/tree/master/Chap%232__First_steps)					:white_check_mark:
+3. [Types and classes](https://github.com/P7h/Programming_in_Haskell/tree/master/Chap%233__Types_and_classes) 			:white_check_mark:
+4. [Defining Functions](https://github.com/P7h/Programming_in_Haskell/tree/master/Chap%234__Defining_functions) 			:white_check_mark:
+5. [List Comprehensions](https://github.com/P7h/Programming_in_Haskell/tree/master/Chap%235__List_comprehensions)			:white_check_mark:
+6. [Recursive Functions](https://github.com/P7h/Programming_in_Haskell/tree/master/Chap%236__Recursion)			:white_check_mark:
+7. Higher-Order Functions :construction:
 8. Declaring types and classes
 9. The countdown problem
 
