@@ -1,0 +1,5 @@
+:set +t
+:set +m
+:set +s
+:set +c
+:set editor vim
