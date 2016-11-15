@@ -201,3 +201,22 @@ last1 (_:xs) = last1 xs
 sumsqr :: Num a => [a] -> a
 sumsqr []     = 0
 sumsqr (x:xs) = x^2 + sumsqr xs
+
+
+-- Fizzbuzz
+fizzbuzz :: IO ()
+fizzbuzz = do
+    mapM_ (putStrLn) [fizzbuzz' x | x <- [1..31]]
+
+fizzbuzz' :: Int -> String
+fizzbuzz' x = if fizz(x) ++ buzz(x) == ""
+    then show x
+    else fizz(x) ++ buzz(x)
+
+fizz:: Int -> String
+fizz n  | n `mod` 3 == 0 = "Fizz"
+        | otherwise      = ""
+
+buzz:: Int -> String
+buzz n  | n `mod` 5 == 0 = "Buzz"
+        | otherwise      = ""
